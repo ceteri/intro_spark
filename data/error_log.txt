@@ -1,0 +1,19 @@
+ERROR	php fatal error: Maximum execution time of 60 seconds exceeded, governor bored
+WARN	mysql disk is hella full
+ERROR	php parse error: syntax error, unexpected T_STRING, expecting â€˜)â€™ â€¦ on line 32
+ERROR	mysql aborted connection 854 to db: 'users' user: 'genghis'
+WARN	php missing argument 1 for preprint(), called â€¦ on line 27 and defined â€¦ on line 21
+ERROR	mysql can't create/write to file '\\sqla3fe_0.ism'
+ERROR	php parse error: syntax error, unexpected â€˜,â€™ â€¦ on line 38
+WARN	mysql some non-transactional changed tables couldn't be rolled back
+ERROR	mysql connection failed: can't initialize character set sumerian64
+ERROR	php fatal error: Cannot redeclare independence()
+ERROR	mysql some non-transactional changed tables couldn't be rolled back
+WARN	php missing argument 1 for pop(), called â€¦ on line 15 and defined â€¦ on line 12
+ERROR	mysql access denied
+ERROR	php parse error: syntax error, unexpected â€˜}â€™, expecting â€˜,â€™ or â€˜;â€™ â€¦ on line 44
+WARN	php warning: Cannot modify header information â€“ headers already sent
+ERROR	mysql too damn many connections
+ERROR	php fatal error: Call to undefined function HistoryEraserButton()
+NOTICE	php notice: Undefined index: asdf
+ERROR	mysql server has gone away, it was angry
