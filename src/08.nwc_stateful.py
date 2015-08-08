@@ -6,7 +6,7 @@ def updateFunc (new_values, last_sum):
     return sum(new_values) + (last_sum or 0)
 
 sc = SparkContext(appName="PyStreamNWC", master="local[*]")
-ssc = StreamingContext(sc, Seconds(5))
+ssc = StreamingContext(sc, 5)
 ssc.checkpoint("checkpoint")
 
 lines = ssc.socketTextStream(sys.argv[1], int(sys.argv[2]))

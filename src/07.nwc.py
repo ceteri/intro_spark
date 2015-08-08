@@ -3,7 +3,7 @@ from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 
 sc = SparkContext(appName="PyStreamNWC", master="local[*]")
-ssc = StreamingContext(sc, Seconds(5))
+ssc = StreamingContext(sc, 5)
 
 lines = ssc.socketTextStream(sys.argv[1], int(sys.argv[2]))
 
