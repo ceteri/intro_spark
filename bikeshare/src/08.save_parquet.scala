@@ -8,4 +8,4 @@ val bike_trips_ex = bike_trips.map{ t =>
 }.toDF()
 
 bike_trips_ex.take(2)
-bike_trips_ex.saveAsParquetFile("bike.parquet")
+bike_trips_ex.write.save("bike.parquet")

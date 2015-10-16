@@ -1,4 +1,5 @@
-val bike_trips = sqlContext.parquetFile("bike.parquet").cache()
+val bike_trips = sqlContext.read.parquet("bike.parquet").cache()
+
 bike_trips.registerTempTable("biketrips")
 bike_trips.printSchema()
 
